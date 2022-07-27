@@ -1,7 +1,7 @@
 # D.U.N.E.
 Docker Utilities for Node Execution
 
-<img src="docs/images/logo.png" alt="logo" width="480">
+<img src="docs/images/logo.png" alt="logo" width="480" />
 
 ## Getting Started
 First we must install [Docker](https://docs.docker.com/get-docker/).
@@ -12,7 +12,7 @@ Once you select the Docker Desktop for your operating system the installation pr
 ## `Linux`
 They have both .DEB and .RPM packages available.  If you can't get these to work for some reason most repos have packages available for the engine and auxillary components.
 
-When finished installing. Check the installation with the command 
+When finished installing. Check the installation with the command
 ```console
 $ docker --help
 ```
@@ -25,7 +25,7 @@ Depending on the distro you are using will determine which python3 package to in
 | Distro | Package Name |
 |--------|--------------|
 | Ubuntu | python3 |
-| RHEL   | rh-python36 * (need to use `scl enable rh-python36 bash`)| 
+| RHEL   | rh-python36 * (need to use `scl enable rh-python36 bash`)|
 | Centos | python3 |
 | Arch   | python |
 
@@ -61,19 +61,19 @@ You should see the link for Python 3.10.4:
 To keep from having to install files to the users system, the perferred method of usage is to add this directory to your 'PATH'.
 Goto to Start Search and type `edit the system` and choose `Edit the system enviroment variables`
 
-<img src="docs/images/win-edit-sys.png" alt="win-edit-sys" width="200">
+<img src="docs/images/win-edit-sys.png" alt="win-edit-sys" width="200" />
 
 From here you should click on the button marked `Environment Variables`
 
-<img src="docs/images/win-sys-props.png" alt="win-sys-props" width="250">
+<img src="docs/images/win-sys-props.png" alt="win-sys-props" width="250" />
 
 From here select the line with `Path` and select `Edit...`
 
-<img src="docs/images/env-vars-1.png" alt="env-vars-1" width="300">
+<img src="docs/images/env-vars-1.png" alt="env-vars-1" width="300" />
 
 From here add a new line with the location of the downloaded DUNE project:
 
-<img src="docs/images/env-vars-2.png" alt="env-vars-2" width="300">
+<img src="docs/images/env-vars-2.png" alt="env-vars-2" width="300" />
 
 Pick your preferred command line application and input the following command:
 ```console:
@@ -82,7 +82,7 @@ C:\<PathToDUNE>\DUNE$ .\bootstrap.bat
 
 ## `Mac OS`
 
-When finished installing. Check the installation with the command. 
+When finished installing. Check the installation with the command.
 ```console
 $ docker --help
 ```
@@ -236,7 +236,7 @@ The core concept of this utility is to abstract over `nodeos`, `cleos`, `CDT`, e
 As such some of the commands might seem restrictive.  Please take note that if you find any of the commands to be too
 restrictive then you can use the command `--` followed by whatever normal `cleos`, `nodeos`, `CDT` and `OS` commands that you need.
 
-When you run any command with DUNE if a container has not been created yet it will automatically create one for you.  The command of 
+When you run any command with DUNE if a container has not been created yet it will automatically create one for you.  The command of
 `start-container` shouldn't necessarily be needed during normal operation.
 
 A developer wallet is automatically created for you and is always unlocked and none of the commands will ever ask you to unlock the wallet.  If you need to run any `cleos` wallet commands or `keosd` commands via `--` and the wallet is locked, then simply run one of the wallet commands from DUNE first and it will unlock the wallet.
@@ -276,7 +276,7 @@ The command `--list` will provide a listing of nodes in the current container.
 ```console
 $ dune --list
 ```
-<img src="docs/images/node-list.png" alt="node-list" width="600">
+<img src="docs/images/node-list.png" alt="node-list" width="600" />
 
 This gives us information about the nodes, their particular ports, if the node is running and a new concept of is the node `active`.
 
@@ -301,7 +301,7 @@ $ dune --create-cmake-app hello ./
 
 This should produce a file structure like the picture below:
 
-<img src="docs/images/cmake-init.png" alt="cmake-init" width="800">
+<img src="docs/images/cmake-init.png" alt="cmake-init" width="800" />
 
 Modify the source code how you like.
 
@@ -311,7 +311,7 @@ Then, let's compile the contract.
 $ dune --cmake-build ./
 ```
 
-<img src="docs/images/cmake-build.png" alt="cmake-build" width="400">
+<img src="docs/images/cmake-build.png" alt="cmake-build" width="400" />
 
 ### `Bare Contract Development`
 Let's start by create a new bare project in our workspace.
@@ -320,7 +320,7 @@ $ dune --create-bare-app hello ./
 ```
 This should produce a file structure like the picture below:
 
-<img src="docs/images/bare-init.png" alt="bare-init" width="400">
+<img src="docs/images/bare-init.png" alt="bare-init" width="400" />
 
 Modify the source code how you like.
 
@@ -419,7 +419,7 @@ DUNE exposes two commands `--export-wallet` and `--import-wallet <WALLET DIR>`.
 
 `export-wallet` will produce a `.tgz` at the current location called `wallet.tgz`.
 
-<img src="docs/images/export-wallet.png" alt="export-wallet" width="400">
+<img src="docs/images/export-wallet.png" alt="export-wallet" width="400" />
 
 `import-wallet` will take the directory of the `wallet.tgz` and import it over the current wallet of the system.
 
