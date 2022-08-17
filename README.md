@@ -1,6 +1,8 @@
 # D.U.N.E.
 Docker Utilities for Node Execution
 
+⚠️ This repository contains an archive of the DUNE and is no longer maintained. Users of DUNE are instead directed to use the code in [AntelopeIO/DUNE](https://github.com/AntelopeIO/DUNE) which is a continuation of this product. That version of DUNE in the [AntelopeIO](https://github.com/AntelopeIO) GitHub organization is updated to support node management and contract development on blockchains following newer versions of the Antelope protocol, which is an evolution of the EOSIO protocol.
+
 <img src="docs/images/logo.png" alt="logo" width="480">
 
 ## Getting Started
