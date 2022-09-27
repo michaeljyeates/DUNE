@@ -38,6 +38,8 @@ To keep from having to install files to the users system, the perferred method o
 $ echo "PATH=<LocationOfDUNE>:$PATH" >> .bashrc
 ```
 
+### `Bootstrap DUNE`
+
 Pick your preferred terminal application and input the following command:
 
 ```console
@@ -77,6 +79,8 @@ From here add a new line with the location of the downloaded DUNE project:
 
 <img src="docs/images/env-vars-2.png" alt="env-vars-2" width="300">
 
+### `Bootstrap DUNE`
+
 Pick your preferred command line application and input the following command:
 ```console:
 C:\<PathToDUNE>\DUNE$ .\bootstrap.bat
@@ -96,6 +100,8 @@ To keep from having to install files to the users system, the perferred method o
 ```console
 $ echo "PATH=<LocationOfDUNE>:$PATH" >> .bashrc
 ```
+
+### `Bootstrap DUNE`
 
 Pick your preferred terminal application and input the following command:
 
